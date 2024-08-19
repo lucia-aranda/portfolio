@@ -41,7 +41,7 @@
 
     <!-- Navbar Start -->
     <div class="container-fluid position-relative nav-bar p-0">
-        <div class="container-lg position-relative p-0 px-lg-3" style="z-index: 9;">
+        <div class="container-lg position-relative p-0 px-lg-0" style="z-index: 9;">
             <nav class="navbar navbar-expand-lg bg-white navbar-light shadow p-lg-0">
                 <a href="index.html" class="navbar-brand d-block d-lg-none">
                     <img src="img/lcag.svg">
@@ -55,7 +55,7 @@
                         <a href="about.html" class="nav-item nav-link">About</a>
                         <a href="experience.html" class="nav-item nav-link">Experience</a>
                     </div>
-                    <a href="index.html" class="navbar-brand mx-5 d-none d-lg-block">
+                    <a href="index.html" class="navbar-brand mx-3 d-none d-lg-block">
                         <h1 class="m-0 display-4 text-primary">Lucía Aranda</h1>
                     </a>
                     <div class="navbar-nav mr-auto py-0">
@@ -69,49 +69,88 @@
     </div>
     <!-- Navbar End -->
 
-
     <!-- Header Start -->
-    <div class="jumbotron jumbotron-fluid page-header" style="margin-bottom: 90px;">
-        <div class="container text-center py-5">
-            <h1 class="text-white display-3 mt-lg-5">About</h1>
+    <div class="jumbotron jumbotron-fluid page-header" style="margin-bottom: 30px;">
+        <div class="container text-center py-1">
+            <h1 class="text-white display-3 mt-lg-3">About</h1>
             <div class="d-inline-flex align-items-center text-white">
                 <p class="m-0"><a class="text-white" href="index.html">Main</a></p>
                 <i class="fa fa-circle px-3"></i>
-                <p class="m-0">About</p>
+                <p class="mb-0"><a style="color:rgb(196, 196, 196);" href="https://lucia-aranda.github.io/portafolio/acerca.html">Traducir</a></p>   
             </div>
         </div>
     </div>
     <!-- Header End -->
 
-
     <!-- About Start -->
-    <div class="container-fluid py-5">
+    <div class="container-fluid py-2">
         <div class="container py-5">
+            
             <div class="row justify-content-center">
                 <div class="col-lg-7">
-                    <h1 class="position-relative text-center mb-5">A quick description.</h1>
+                    <h1 class="position-relative text-center mb-5">A quick description</h1>
                 </div>
             </div>
-            <div class="row">
+
+            <div class="row justify-content-center" style="margin-left: 20px;">
                 <div class="col-lg-4 py-5">
-                    <p>Web Developer. Bringing forth in design, installation, development and testing of web systems. Proficient in an assortment of technologies, including Adobe applications, </p>
+                    <article class="card">
+                    <div class="project-info">
+                        <div class="flex">
+                        <div class="project-title">Software engineer</div>
+                        </div>
+                        <span class="lighter">Bringing forth in design, installation, development and testing of web systems. Proficient in an assortment of technologies.</span>
+                    </div>
+                    </article>
                 </div>
-                <div class="col-lg-4" style="min-height: 400px;">
-                    <div class="position-relative h-100 rounded overflow-hidden" style="border: 2px solid #ddd;">
+
+                <div class="col-lg-4 py-5">
+                    <div class="card-container">
+                    <div class="card">
+                    <div class="img-content">
                         <img class="position-absolute w-100 h-100 rounded" src="img/lucy.png" style="object-fit: cover;">
                     </div>
+                    <div class="content">
+                        <p>
+                        <div class="word-container">
+                            <span class="word highlight">MongoDB</span>
+                            <span class="word">Blender</span>
+                            <span class="word highlight">MySQL</span>
+                            <span class="word highlight">HTML</span>
+                            <span class="word hightlight">Javascript</span>
+                            <span class="word highlight">CSS</span>
+                            <span class="word">Python</span>
+                            <span class="word">Adobe</span>
+                            <span class="word">Android Studio</span>
+                            <span class="word">Arduino</span>
+                            <span class="word">C++</span>
+                            <span class="word highlight">Flutter</span>
+                            <span class="word">Git</span>
+                            <span class="word">Java</span>
+                            <span class="word">Laravel</span>
+                            <span class="word">React Native</span>
+                        </div>
+                        </p>
+                    </div>
+                    </div>
+                    </div>
                 </div>
+
                 <div class="col-lg-4 py-5">
-                    <p>Frameworks, JavaScript, Python, MongoDB, and Microsoft SQL Server. Able to effectively self-manage during independent projects, as well as collaborate in a productive team.</p>
+                    <article class="card">
+                    <div class="project-info">
+                        <div class="flex">
+                        <span class="lighter">AI, Frameworks, MongoDB, and MySQL Server. Able to effectively self-manage during independent projects, as well as collaborate in a productive team.</span>
+                        </div>
+                        <span class="tag">Intern level</span>
+                    </div>
+                    </article>
                 </div>
+
             </div>
         </div>
     </div>
     <!-- About End -->
-
-
-    <p class="position-relative text-center mb-5"><a href="https://lucia-aranda.github.io/portafolio/acerca.html">Traducir</p>    
-
    
     <!-- Back to Top -->
     <a href="#" class="btn btn-secondary px-2 back-to-top"><i class="fa fa-angle-double-up"></i></a>
@@ -132,6 +171,16 @@
 
     <!-- Template Javascript -->
     <script src="js/main.js"></script>
+
+    <!-- Smooth Scroll Down -->
+    <script>
+        window.onload = function() {
+            window.scrollTo({
+                top: document.body.scrollHeight,
+                behavior: 'smooth'
+            });
+        };
+    </script>  
 </body>
 
 </html>
