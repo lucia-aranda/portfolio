@@ -89,7 +89,8 @@
 
 
     <!-- Contact Start -->
-    
+    <div id="bubble-container">
+        <script src="script.js"></script>
     <div class="container-fluid py-5" style="margin-top: 60px; margin-bottom: 60px;">
         <div class="container py-5">
             <div class="row justify-content-center">
@@ -179,6 +180,21 @@
             });
         };
     </script>  
+
+    <!-- Cursor Bubbles -->
+    <script>
+    document.addEventListener('mousemove', function(e) {
+        const bubble = document.createElement('div');
+        bubble.classList.add('bubble');
+        bubble.style.left = `${e.pageX}px`;
+        bubble.style.top = `${e.pageY}px`;
+        document.getElementById('bubble-container').appendChild(bubble);
+
+        setTimeout(() => {
+            bubble.remove();
+        }, 1000);
+    });
+    </script>
 </body>
 
 </html>
