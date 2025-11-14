@@ -2,19 +2,19 @@
   <br>
   <img alt="Exo" src="img/lcag.svg" width="150px">
   <h1>💾 My Web Portfolio 💾</h1>
-  <strong>All the information referent about <a href="https://lucia-aranda.github.io/portfolio/">my work</a>.</strong>
+  <strong>All the referent information about <a href="https://lucia-aranda.github.io/portfolio/">my work</a>.</strong>
 </div>
 
 ## Summary
 
-| #   | Section                                                                                                       |
-| --- | --------------------------------------------------------------------------------------------------------------|
-| 👋   | [Main](https://lucia-aranda.github.io/portfolio/): Welcoming and overview.                                   |
-| 📖   | [About](https://lucia-aranda.github.io/portfolio/about.html): Quick description of who I am and what I do.   |
-| ⚔️   | [Experience](https://lucia-aranda.github.io/portfolio/experience.html): Education, courses, and experience.  |
-| 💼   | [Projects](https://lucia-aranda.github.io/portfolio/projects.html): Pages I worked with and demos.           |
-| 💽   | [Skills](https://lucia-aranda.github.io/portfolio/skills.html): Technical and non-technical skills.          |
-| 📱   | [Contact](https://lucia-aranda.github.io/portfolio/contact.html): Social media and email contact.            |
+| #   | Section                                                                                                             |
+| --- | --------------------------------------------------------------------------------------------------------------------|
+| 👋   | [Main](https://lucia-aranda.github.io/portfolio/): Welcoming and overview.                                        |
+| 📖   | [About](https://lucia-aranda.github.io/portfolio/about.html): Quick description of who I am and what I do.        |
+| ⚔️   | [Experience](https://lucia-aranda.github.io/portfolio/experience.html): Education, courses, and work experience.  |
+| 💼   | [Projects](https://lucia-aranda.github.io/portfolio/projects.html): Pages I worked with and demos.                |
+| 💽   | [Skills](https://lucia-aranda.github.io/portfolio/skills.html): Technical and non-technical skills.               |
+| 📱   | [Contact](https://lucia-aranda.github.io/portfolio/contact.html): Social media and email contact.                 |
 
 ## Prerequisites
 
