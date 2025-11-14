@@ -1,6 +1,6 @@
 <div align="center">
   <br>
-  <img alt="Exo" src="img/lcag.svg" width="150px">
+  <img alt="lcag" src="img/lcag.svg" width="150px">
   <h1>💾 My Web Portfolio 💾</h1>
   <strong>All the referent information about <a href="https://lucia-aranda.github.io/portfolio/">my work</a>.</strong>
 </div>
