@@ -1,7 +1,51 @@
-<h2>Portfolio</h2>
+<div align="center">
+  <br>
+  <img alt="Exo" src="img/lcag.svg" width="150px">
+  <h1>💾 My Web Portfolio 💾</h1>
+  <strong>All the information referent about <a href="https://lucia-aranda.github.io/portfolio/">my work</a>.</strong>
+</div>
 
-<a>Personal web portfolio, including sections such as Main, About, Experience, Projects, Skills, and Contact.</a>
+## Summary
 
-<a>Built with JS, SCSS, HTML and CSS.</a>
+| #   | Section                                                                                                       |
+| --- | --------------------------------------------------------------------------------------------------------------|
+| 👋   | [Main](https://lucia-aranda.github.io/portfolio/): Welcoming and overview.                                   |
+| 📖   | [About](https://lucia-aranda.github.io/portfolio/about.html): Quick description of who I am and what I do.   |
+| ⚔️   | [Experience](https://lucia-aranda.github.io/portfolio/experience.html): Education, courses, and experience.  |
+| 💼   | [Projects](https://lucia-aranda.github.io/portfolio/projects.html): Pages I worked with and demos.           |
+| 💽   | [Skills](https://lucia-aranda.github.io/portfolio/skills.html): Technical and non-technical skills.          |
+| 📱   | [Contact](https://lucia-aranda.github.io/portfolio/contact.html): Social media and email contact.            |
+
+## Prerequisites
+
+To run the project locally, you need a code environment installed on your machine:
+
+- `Visual Studio Code (or any other similar software)`
+
+This optional extension (omit if you already have a virtual server):
+
+```
+Live Server by Ritwick Dey
+```
+
+And internet conection 🌐 to some features work propertly.
+
+## Concept
+
+A responsive web portfolio that includes information about who I am 🪪, what I do 🖱️ and where to reach me out 📫. 
+
+It combines JavaScript animations, CSS/SCSS styling, and modern front-end techniques to create an engaging user experience. The project features smooth animations, interactive hover effects, custom cursor animations, and gradient styling that enhance visual appeal. Also includes PDF export functionality for easy document sharing and incorporates adapted templates that integrate all interactive elements seamlessly. Built with clean code structure, the project demonstrates both technical skills like JavaScript DOM manipulation and SCSS preprocessing, alongside strong design sensibility through responsive layouts and user-friendly navigation. 🖥️
+
+You can explore the DOM structure, inline styles, and event-driven behaviors for both educational insight and creative inspiration. 📚
+
+## Installation
+
+This is a PWA, wich means you can install it from the browser to your own mobile phone 📱 or desk 💻, pressing the upper right three dots and searching for the download button.
+
+## Contributing
+
+Even though this project isn't open to contributors, feel free to DM me 💬 if you have any question(s)/need help/concern(s) about :)
+
+## Quick visualization
 
 <img src="portfolio.gif">
