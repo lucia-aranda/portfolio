@@ -1,4 +1,4 @@
-const CACHE_NAME = 'cache-portafolio-v1';
+const CACHE_NAME = 'cache-portfolio-v1';
 const urlsToCache = [
   '/',
   '/index.html',
@@ -61,3 +61,4 @@ self.addEventListener('activate', event => {
     })
   );
 });
+
